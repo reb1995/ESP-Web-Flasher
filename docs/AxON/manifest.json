@@ -1,0 +1,26 @@
+{
+  "name": "AxON",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [ { "path": "esp32-merged.bin", "offset": 0 } ]
+    },
+    {
+      "chipFamily": "ESP32-C3",
+      "parts": [ { "path": "esp32c3-merged.bin", "offset": 0 } ]
+    },
+    {
+      "chipFamily": "ESP32-C5",
+      "parts": [ { "path": "esp32c5-merged.bin", "offset": 0 } ]
+    },
+    {
+      "chipFamily": "ESP32-C6",
+      "parts": [ { "path": "esp32c6-merged.bin", "offset": 0 } ]
+    },
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [ { "path": "esp32s3-merged.bin", "offset": 0 } ]
+    }
+  ]
+}
